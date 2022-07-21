@@ -7,9 +7,7 @@
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Javascript
 
 ## Live Demo (if available)
 
