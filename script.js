@@ -15,7 +15,7 @@ function stringLength(str) {
     return str.charAt(0).toUpperCase()+str.substring(1,str.length);
   }
   
-  //Section calculator class which have 4 methods: add, subtract, divide, and multiply.
+  //Section calculator class which have 4 methods: addition, subtraction, division, and multiplication.
   function add(a,b) {
     return a+b;
   }
@@ -29,4 +29,4 @@ function stringLength(str) {
     return a/b;
   }
   
-  module.exports = { stringLength,reverseString,add,subtract,multiply,divide,capitalizeString};
+  module.exports = { stringLength,reverseString,capitalizeString,add,subtract,multiply,divide};

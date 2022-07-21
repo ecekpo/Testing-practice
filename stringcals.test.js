@@ -1,11 +1,11 @@
-const myModule = require('./script.js');
-const stringLength = myModule.stringLength;
-const reverseString = myModule.reverseString;
-const add = myModule.add;
-const subtract = myModule.subtract;
-const multiply = myModule.multiply;
-const divide = myModule.divide;
-const capitalizeString = myModule.capitalizeString;
+const myTest = require('./script.js');
+const stringLength = myTest.stringLength;
+const reverseString = myTest.reverseString;
+const add = myTest.add;
+const subtract = myTest.subtract;
+const multiply = myTest.multiply;
+const divide = myTest.divide;
+const capitalizeString = myTest.capitalizeString;
 
 describe (('my string'), () => {
   test('world length is equal (5)', () => {
@@ -27,16 +27,16 @@ describe (('my string'), () => {
 });
 
 describe (('my calculator'), () => {
-  test('2 + 1 equal (3)', () => {
-    expect(add(2,1)).toBe(3);
+  test('5 + 5 equal (10)', () => {
+    expect(add(5,5)).toBe(10);
   });
-  test('2 - 1 equal (1)', () => {
-    expect(subtract(2,1)).toBe(1);
+  test('10 - 1 equal (9)', () => {
+    expect(subtract(10,1)).toBe(9);
   });
-  test('2 X 3 equal (6)', () => {
-    expect(multiply(2,3)).toBe(6);
+  test('5 X 3 equal (15)', () => {
+    expect(multiply(5,3)).toBe(15);
   });
-  test('8 / 4 equal (2)', () => {
-    expect(divide(8,4)).toBe(2);
+  test('15 / 3 equal (5)', () => {
+    expect(divide(15,3)).toBe(5);
   });
 });
